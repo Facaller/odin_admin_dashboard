@@ -16,7 +16,7 @@ Attribution for images (used as nav icons):
 <a href="https://www.flaticon.com/free-icons/greek" title="greek icons">Greek icons created by Eucalyp - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/communism" title="communism icons">Communism icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/team-building" title="team-building icons">Team-building icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/hiking" title="hiking icons">Hiking icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/medieval" title="medieval icons">Medieval icons created by Freepik - Flaticon</a>
 
 Attribution for images (navigation and interaction):
 <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Freepik - Flaticon</a>
