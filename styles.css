@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'andbasr';
+    src:
+        url(./andbasr-webfont.woff2) format(woff2)
+        url(./andbasr-webfont.woff) format(woff);
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'dalekpinpoint';
+    src:
+        url(./dalekpinpointbold-webfont.woff2) format(woff2)
+        url(./dalekpinpointbold-webfont.woff) format(woff);
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'romanica';
+    src:
+        url(./romanica-webfont.woff2) format(woff2)
+        url(./romanica-webfont.woff) format(woff);
+        font-weight: normal;
+        font-style: normal;
+}
+
