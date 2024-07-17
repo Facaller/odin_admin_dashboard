@@ -25,3 +25,44 @@
         font-style: normal;
 }
 
+/* Colour Palette
+White           #FFFFFF 
+Cosmic Latte    #FFF8E8
+Gold            #FFD700 / Jasmine       #FCD581
+Oxford Blue     #001F3F
+Claret          #990D35
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+/* Header style and selectors */
+
+.header {
+    grid-column: 2 / 3;
+    display: grid;
+    background-color: #001f3f;
+}
+
+
+
+/* Sidebar style and selectors */
+
+.sidebar {
+    grid-row: 1/ 3;
+    background-color: #FFF8E8;
+}
+
+/* Main content style and selectors */
+
+.main-content {
+    background-color: #FFD700;
+}

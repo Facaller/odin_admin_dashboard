@@ -1,8 +1,0 @@
-1   -   Download all relevant and expected files
-2   -   Create html rough base structure with grid in mind
-3   -   Organise page into broad grid structure
-4.1 -   Create header structure
-4.2 -   Create sidebar structure
-4.3 -   Create main body structure
-5   -   Add content to sections following same path (header, sidebar, main)
-6   -   Add styling and images to sections 
