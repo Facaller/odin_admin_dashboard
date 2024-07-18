@@ -53,28 +53,32 @@ Claret          #990D35
     background-color: #FFFFFF;
 }
 
-.header > div :first-of-type {
-    grid-column: 2 / 3;
-}
-
-.header > div :nth-of-type(2) {
-    grid-row: 2 / 3;
-}
-
-.header div :last-child {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
 /* Sidebar style and selectors */
 
 .sidebar {
     grid-row: 1/ 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     background-color: #FFF8E8;
 }
 
 /* Main content style and selectors */
 
 .main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
     background-color: #FFD700;
+}
+
+.projects {
+    grid-row: 1/ 3 ;
+}
+
+.announcements {
+
+}
+
+.trending {
+    grid-column: 2 / 3;
 }
