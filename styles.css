@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'andbasr';
     src:
-        url(./andbasr-webfont.woff2) format(woff2)
-        url(./andbasr-webfont.woff) format(woff);
+        url(./andbasr-webfont.woff2) format('woff2'),
+        url(./andbasr-webfont.woff) format('woff');
         font-weight: normal;
         font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
     font-family: 'dalekpinpoint';
     src:
-        url(./dalekpinpointbold-webfont.woff2) format(woff2)
-        url(./dalekpinpointbold-webfont.woff) format(woff);
+        url(./dalekpinpointbold-webfont.woff2) format('woff2'),
+        url(./dalekpinpointbold-webfont.woff) format('woff');
         font-weight: normal;
         font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
     font-family: 'romanica';
     src:
-        url(./romanica-webfont.woff2) format(woff2)
-        url(./romanica-webfont.woff) format(woff);
+        url(./romanica-webfont.woff2) format('woff2'),
+        url(./romanica-webfont.woff) format('woff');
         font-weight: normal;
         font-style: normal;
 }
@@ -33,6 +33,8 @@ Oxford Blue     #001F3F
 Claret          #990D35
 */
 
+/* General style and selectors */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -44,6 +46,10 @@ Claret          #990D35
     grid-template-columns: 1fr 5fr;
 }
 
+p {
+    font-family: 'andbasr';
+}
+
 /* Header style and selectors */
 
 .header {
@@ -51,6 +57,33 @@ Claret          #990D35
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: #FFFFFF;
+}
+
+input[type="search"] {
+    width: 60%;
+    height: 1.7rem;
+    background-color: #FFF8E8;
+    border-radius: 5px;
+    border: 1px solid  #e6e6e6;    ;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #001F3F;
+}
+
+input:invalid {
+    border: 1px solid #dc3848
+
+}
+
+button {
+    padding: 5px 20px;
+    font: bold 1em 'andbasr';
+    color: #000000;
+    background-color: #FCD581;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Sidebar style and selectors */
