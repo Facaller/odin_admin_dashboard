@@ -24,7 +24,6 @@
         font-weight: normal;
         font-style: normal;
 }
-
 /* Colour Palette
 White           #FFFFFF 
 Cosmic Latte    #FFF8E8
@@ -32,9 +31,7 @@ Gold            #FFD700 / Jasmine       #FCD581
 Oxford Blue     #001F3F
 Claret          #990D35
 */
-
 /* General style and selectors */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -49,9 +46,7 @@ Claret          #990D35
 p {
     font-family: 'andbasr';
 }
-
 /* Header style and selectors */
-
 .header {
     grid-column: 2 / 3;
     padding: 0 30px 20px 30px;
@@ -60,11 +55,6 @@ p {
     grid-template-columns: 2fr 1fr;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.header > div:nth-of-type(2),
-.header > div:nth-of-type(4) {
-    
 }
 
 .header > div:nth-of-type(2) {
@@ -127,18 +117,29 @@ button {
     border: none;
     border-radius: 5px;
 }
-
 /* Sidebar style and selectors */
-
 .sidebar {
     grid-row: 1/ 3;
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #FFF8E8;
+    padding: 1rem;
 }
 
-/* Main content style and selectors */
+.sidebar-nav > h2 {
+    font: bold 1.6rem 'dalekpinpoint';
+}
 
+.sidebar-nav > p {
+    font: 1.1rem 'dalekpinpoint';
+    
+}
+
+.sidebar-nav > h2,
+.sidebar-nav > p:nth-of-type(6) {
+    padding-bottom: 30px;
+}
+/* Main content style and selectors */
 .main-content {
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -151,13 +152,12 @@ button {
 
 .projects-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
 }
 
 .cards {
     padding: 25px;
-    width: 400px;
     height: 200px;
     border-left: 7px solid #FFD700;
     border-radius: 4px;
@@ -181,6 +181,10 @@ h4 {
     padding: 20px;
 }
 
+.news {
+    justify-self: center;
+}
+
 .announcements {
     padding-bottom: 0;
 }
@@ -192,8 +196,8 @@ h4 {
 
 .announcements-card {
     padding: 5px 30px;
-    width: 270px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     border-radius: 4px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     color: #999999;
@@ -206,7 +210,7 @@ h4 {
 }
 
 .announcements-card > div > h4 + p {
-    font-size: .7rem;
+    font-size: .8rem;
     border-bottom: 1px solid #999999;
     padding-bottom: 15px;
 }
@@ -215,14 +219,10 @@ h4 {
     border-bottom: none;
 }
 
-.trending {
-    align-self: end;
-}
-
 .trending-card {
     padding: 5px 30px;
-    width: 270px;
-    height: 280px;
+    width: 300px;
+    height: 350px;
     border-radius: 4px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     color: #999999;
