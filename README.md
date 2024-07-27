@@ -6,6 +6,7 @@ Attribution for images:
 <a href="https://www.flaticon.com/free-icons/monk" title="monk icons">Monk icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/candle-lamp" title="candle lamp icons">Candle lamp icons created by dhtgicon - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/mushroom" title="mushroom icons">Mushroom icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/lantern" title="lantern icons">Lantern icons created by Freepik - Flaticon</a>
 
 Attribution for images (used as nav icons):
 <a href="https://www.flaticon.com/free-icons/castle" title="castle icons">Castle icons created by Smashicons - Flaticon</a>
