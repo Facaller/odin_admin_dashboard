@@ -180,13 +180,21 @@ button {
 }
 
 .cards {
+    display: grid;
     padding: 25px;
-    height: 200px;
+    height: 230px;
     border-left: 7px solid #FFD700;
     border-radius: 4px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     color: #999999;
     background-color: #FFFFFF;
+}
+
+.cards > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 15px;
 }
 
 .projects-box > div > h4 + p {
