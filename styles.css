@@ -257,8 +257,13 @@ h4 {
     font-size: .9rem;
 }
 /* Images and Icons style and selectors */
+img {
+    width: 45px;
+    height: auto;
+}
+
 .icons {
     width: 35px;
     height: auto;
-    
 }
+
