@@ -218,7 +218,7 @@ h4 {
 }
 
 .news {
-    justify-self: center;
+    background-color: #999999;
 }
 
 .announcements {
@@ -231,9 +231,12 @@ h4 {
 }
 
 .announcements-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 5px 30px;
-    width: 300px;
-    height: 350px;
+    width: 320px;
+    height: 360px;
     border-radius: 4px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     color: #999999;
@@ -251,19 +254,28 @@ h4 {
     padding-bottom: 15px;
 }
 
-.announcements-card > div > h4 + p:last-of-type {
+.announcements-card > div:last-of-type > h4 + p:last-of-type {
     border-bottom: none;
 }
 
 .trending-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 5px 30px;
-    width: 300px;
-    height: 350px;
+    width: 320px;
+    height: 360px;
     border-radius: 4px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
     color: #999999;
     background-color: #FFFFFF;
     font-size: .9rem;
+}
+
+.trending-card > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .trending-card > div > img + p {
