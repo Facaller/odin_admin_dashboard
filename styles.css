@@ -211,10 +211,13 @@ h4 {
     color: #000000;
 }
 
-.projects,
+.projects {
+    padding: 2rem 4rem 2rem 3rem;
+}
+
 .announcements,
 .trending {
-    padding: 2rem 4rem 2rem 3rem;
+    padding: 2rem;
 }
 
 .news {
