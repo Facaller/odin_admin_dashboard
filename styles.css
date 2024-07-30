@@ -72,6 +72,13 @@ p {
     width: 30px;
 }
 
+.header > div:nth-of-type(2) > img:last-of-type {
+    width: 40px;
+    height: auto;
+    background-color: ;
+    border-radius: 50%;
+}
+
 .header > div:nth-of-type(2) > p {
 align-self: stretch;}
 
@@ -164,7 +171,7 @@ button {
 
 .sidebar-card > p {
     font: 1.1rem 'dalekpinpoint';
-    padding-left: 3.1rem;
+    padding-left: 2.6rem;
 }
 
 .sidebar-card > img {
