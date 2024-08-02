@@ -72,6 +72,8 @@ a:hover {
     background-color: #FFFFFF;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
+    position: sticky;
+    top: -1px;
 }
 
 .header > div:nth-of-type(1) > form {
@@ -269,7 +271,15 @@ div > img + p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 5px;
+}
+
+.cards > div > a {
+    padding: 5px;
+}
+.cards > div > a:hover {
+    background-color: #FFD700;
+    border-radius: 50%;
 }
 
 .projects-box > div > h4 + p {
