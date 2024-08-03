@@ -1,5 +1,7 @@
 # odin_admin_dashboard
-Admin dashboard for The Odin Project
+Admin dashboard for The Odin Project. Philosophically-themed, if you're into that kinda thing. If not, it's Philosophically-themed all the same.
+
+As of this commit, I'm done with this project for now. Will revisit in future when I have new ideas to add and some other functionality I'd like to add.
 
 Attribution for images:
 <a href="https://www.flaticon.com/free-icons/philosopher" title="philosopher icons">Philosopher icons created by Freepik - Flaticon</a>
